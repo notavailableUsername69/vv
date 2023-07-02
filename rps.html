@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="rps.css" />
+  <script src="rps.js" defer></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700;900&display=swap" rel="stylesheet" />
+
+  <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+  <div class="game">
+    <h1>Rock, Paper, Scissors</h1>
+    <div class="options">
+      <button class="btn" id="rock">👊</button>
+      <button class="btn" id="paper">✋</button>
+      <button class="btn" id="scissors">✌️</button>
+    </div>
+    <div class="display">
+      <div class="player">
+        <p>You Chose:</p>
+        <div class="display-player"></div>
+      </div>
+      <div class="cpu">
+        <p>Computer Chose:</p>
+        <div class="display-cpu"></div>
+      </div>
+    </div>
+    <div class="score">
+      <h2>Score:</h2>
+      <div class="score-container">
+        <div class="player-score">0</div>
+        <div class="cpu-score">0</div>
+      </div>
+    </div>
+    <p class="message"></p>
+    <div class="restart">
+      <button class="restart-btn">Restart Game</button>
+    </div>
+  </div>
+</body>
+</html>
